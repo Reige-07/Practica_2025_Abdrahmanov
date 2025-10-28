@@ -1,1 +1,11 @@
 @import "tailwindcss";
+
+/* ._header icon_div{
+    width: 48px;
+    height: 48px;
+} */
+
+.icon_div{
+    width: 48px;
+    height: 48px;
+}
