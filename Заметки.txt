@@ -1,0 +1,10 @@
+font-[10] это Weight
+
+text-[20px] это font-size
+
+leading-[1.5] это line height
+
+tracking-[.25em] это letter spacing
+
+align-middle это vertical-align
+
