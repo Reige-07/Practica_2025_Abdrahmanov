@@ -8,3 +8,22 @@ tracking-[.25em] это letter spacing
 
 align-middle это vertical-align
 
+<div className='_card w-100 h-130 bg-[#FFFFFF] rounded-3xl text-center drop-shadow-xl'>
+    <div className="pr-5 pl-5 pt-30 pb-15 flex flex-col justify-between align-middle items-center h-full">
+        <img className='' src={} alt="" width={150} height={150}/>
+        <h1 className='H1_ text-[#111029] font-[600px] text-[20px]'></h1>
+        <h2 className='H2_ text-[#6B6B6B] font-[400px] text-[18px]'></h2>
+        <img src={str_usually} alt="" width={50} height={50}/>
+    </div>            
+</div>
+
+
+звонки
+1. 9:00-9:45
+2. 9:55-10:40
+3. 10:50-11:35
+4. 11:55-12:40
+5. 13:00-13:45
+6. 13:55-14:40
+7. 14:50-15:35
+8. 15:45-16:30

@@ -2,6 +2,7 @@ import { useState } from 'react'
 import Header from './components/header'
 import MakeYourBusiness from './components/MakeYourBusiness'
 import OurServices from './components/OurServices'
+import OurDocumentation from "./components/OurDocumentation"
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
         <Header/>
         <MakeYourBusiness/>
         <OurServices/>
+        <OurDocumentation/>
       </div>
   )
 }
