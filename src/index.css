@@ -1,11 +1,7 @@
 @import "tailwindcss";
 
-/* ._header icon_div{
-    width: 48px;
-    height: 48px;
-} */
-
-.icon_div{
-    width: 48px;
-    height: 48px;
+.OurDocumentation{
+    background-image: url("assets/OurDocumentationBackground.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }

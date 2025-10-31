@@ -16,7 +16,7 @@ const OurServices = () => {
             <h1 className=' text-[#FF2D59] text-center font-[600px] text-[20px] leading-[5] tracking-[0px] align-middle'>
                 Our Services
             </h1>
-            <h1 className=' text-[#111029] text-center font-[600px] text-[42px] tracking-[-0.1px] align-middle'>
+            <h1 className=' text-[#111029] text-center font-bold text-[42px] tracking-[-0.1px] align-middle'>
                 The various services we provide to make your business more powerful
             </h1>
         </div>

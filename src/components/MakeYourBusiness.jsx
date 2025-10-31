@@ -7,9 +7,9 @@ const MakeYourBusiness = () => {
     <div className='MakeYourBusinessMrLoh flex justify-center'>
         <div className='MakeText pt-50'>
             <div className='h1Text'>
-              <h1 className='text-[56px] text-[#111029] leading-[72px] tracking-[-0.4px] font-[600px]'>Make your business</h1>
-              <h1 className='text-[56px] text-[#FF6800] leading-[72px] tracking-[-0.4px] font-[600px]'>more powerful</h1>
-              <h1 className='text-[56px] text-[#111029] leading-[72px] tracking-[-0.4px] font-[600px]'>with us</h1>
+              <h1 className='text-[56px] text-[#111029] leading-[72px] tracking-[-0.4px] font-bold'>Make your business</h1>
+              <h1 className='text-[56px] text-[#FF6800] leading-[72px] tracking-[-0.4px] font-bold'>more powerful</h1>
+              <h1 className='text-[56px] text-[#111029] leading-[72px] tracking-[-0.4px] font-bold'>with us</h1>
             </div>
 
             <h6 className='text-[18px] text-[#6B6B6B] leading-[32px] tracking-[0px] font-[400px] w-80 align-middle pt-5 pb-5'>We provide various services to make your business grow and get bigger. Your satisfaction is our first priority.</h6>

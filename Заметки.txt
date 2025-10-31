@@ -17,6 +17,11 @@ align-middle это vertical-align
     </div>            
 </div>
 
+<div className='Card w-65 h-80 bg-[#FFFFFF] rounded-3xl drop-shadow-xl'>
+    <h1 className='CardNumbers pt-10 font-bold text-[56px] leading-36 text-[] text-center'></h1>
+    <h2 className='CardTeeeext font-[400px] text-[18px]  text-[#111029] text-center'></h2>
+</div>
+
 
 звонки
 1. 9:00-9:45

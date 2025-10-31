@@ -3,6 +3,7 @@ import Header from './components/header'
 import MakeYourBusiness from './components/MakeYourBusiness'
 import OurServices from './components/OurServices'
 import OurDocumentation from "./components/OurDocumentation"
+import CustomerSatisfaction from './components/CustomerSatisfaction'
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
         <MakeYourBusiness/>
         <OurServices/>
         <OurDocumentation/>
+        <CustomerSatisfaction/>
       </div>
   )
 }
