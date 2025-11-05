@@ -2,7 +2,7 @@ import React from 'react'
 
 const CustomerSatisfaction = () => {
   return (
-    <div className='CustomerSatisfaction bg-[#F9F9FD] flex justify-center gap-5 pt-20'>
+    <div className='CustomerSatisfaction bg-[#F9F9FD] flex justify-center gap-5 pt-25 pb-25'>
         <div className='CustomerStatisticsCardsLeft pt-10'>
             <div className='Card70k w-65 h-80 bg-[#FFFFFF] rounded-3xl drop-shadow-xl m-5'>
                 <h1 className='CardNumbers pt-10 font-bold text-[56px] leading-36 text-[#4C40F7] text-center'>70K+</h1>

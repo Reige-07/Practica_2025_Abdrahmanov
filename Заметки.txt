@@ -22,6 +22,15 @@ align-middle это vertical-align
     <h2 className='CardTeeeext font-[400px] text-[18px]  text-[#111029] text-center'></h2>
 </div>
 
+<div className='--- w-88 h-- rounded-[5px]'>
+    <h1 className=' text-[#FFFFFF] font-[400px] text-[18px] leading-[3] tracking-[0px] align-middle pl-5 pt--'></h1>
+</div>
+
+.--{
+    background-image: url("assets/WorkingSpace/--.png");
+    background-repeat: no-repeat;
+}
+
 
 звонки
 1. 9:00-9:45

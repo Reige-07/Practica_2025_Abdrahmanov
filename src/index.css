@@ -5,3 +5,33 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.FrontWorkingSpace{
+    background-image: url("assets/WorkingSpace/FrontWorkingSpace.png");
+    background-repeat: no-repeat;
+}
+
+.GuestRestRoom{
+    background-image: url("assets/WorkingSpace/GuestRestRoom.png");
+    background-repeat: no-repeat;
+}
+
+.MeetingCorner{
+    background-image: url("assets/WorkingSpace/MeetingCorner.png");
+    background-repeat: no-repeat;
+}
+
+.SingleWorkingSpace{
+    background-image: url("assets/WorkingSpace/SingleWorkSpace.png");
+    background-repeat: no-repeat;
+}
+
+.GuestMeetingRoom{
+    background-image: url("assets/WorkingSpace/GuestMeetingRoom.png");
+    background-repeat: no-repeat;
+}
+
+.KitchenRoom{
+    background-image: url("assets/WorkingSpace/KitchenRoom.png");
+    background-repeat: no-repeat;
+}
