@@ -35,3 +35,9 @@
     background-image: url("assets/WorkingSpace/KitchenRoom.png");
     background-repeat: no-repeat;
 }
+
+.FrequentlyAskQuestion{
+    background-image: url("assets/FrequentlyAskQuestion/FrequentlyAskQuestionBackground.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}

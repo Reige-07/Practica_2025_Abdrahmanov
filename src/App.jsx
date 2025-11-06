@@ -6,6 +6,9 @@ import OurDocumentation from "./components/OurDocumentation"
 import CustomerSatisfaction from './components/CustomerSatisfaction'
 import WorkingSpace from './components/WorkingSpace'
 import SomeOfOurGreatCustomers from './components/SomeOfOurGreatCustomers'
+import Reviews from './components/Reviews'
+import FrequentlyAskQuestion from './components/FrequentlyAskQuestion'
+import Testimonials from './components/Testimonials'
 
 function App() {
 
@@ -18,6 +21,9 @@ function App() {
         <CustomerSatisfaction/>
         <WorkingSpace/>
         <SomeOfOurGreatCustomers/>
+        <Reviews/>
+        <FrequentlyAskQuestion/>
+        <Testimonials/>
       </div>
   )
 }
