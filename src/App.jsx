@@ -9,6 +9,7 @@ import SomeOfOurGreatCustomers from './components/SomeOfOurGreatCustomers'
 import Reviews from './components/Reviews'
 import FrequentlyAskQuestion from './components/FrequentlyAskQuestion'
 import Testimonials from './components/Testimonials'
+import StartANewProject from './components/StartANewProject'
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
         <Reviews/>
         <FrequentlyAskQuestion/>
         <Testimonials/>
+        <StartANewProject/>
       </div>
   )
 }

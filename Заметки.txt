@@ -36,8 +36,8 @@ align-middle это vertical-align
     <div className='IncCardText text-center '>
         <h1 className=' text-[#111029] font-bold text-[24px] tracking-[0px]'></h1>
         <h1 className=' text-[#ABAFC7] font-[400px] text-[16px] m-5 tracking-[0px]'></h1>
-        <h1 className=' text-[#70798B] font-[400px] text-[18px] tracking-[0px]'></h1>
-        <div className=' flex justify-center h-10 pt-5'><img className=' h-5' src={fiveStars} alt="" />Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</div>
+        <h1 className=' text-[#70798B] font-[400px] text-[18px] tracking-[0px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</h1>
+        <div className=' flex justify-center h-10 pt-5'><img className=' h-5' src={fiveStars} alt="" /></div>
     </div>            
 </div>
 

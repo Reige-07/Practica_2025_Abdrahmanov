@@ -2,10 +2,14 @@ import React from 'react'
 import fiveStars from '../assets/Testimonials/FiveStars.png'
 import Ronald from '../assets/Testimonials/RonaldRichards.png'
 import Guy from '../assets/Testimonials/GuyHawkins.png'
+import Kristin from '../assets/Testimonials/KristinWatson.png'
+import Robert from '../assets/Testimonials/RobertFox.png'
+import savannah from '../assets/Testimonials/SavannahNguyen.png'
+import HenryNotStickman from '../assets/Testimonials/CourtneyHenry.png'
 
 const Testimonials = () => {
   return (
-    <div className='Testimonials'>
+    <div className='Testimonials pt-30 bg-[#F9F9FD]'>
         <div className='TextTestimonials'>
             <h1 className=' text-[#FF2D59] text-center font-bold text-[20px] leading-[5] tracking-[0px] align-middle'>
                 Testimonials
@@ -15,7 +19,7 @@ const Testimonials = () => {
             </h1>
         </div>
 
-        <div className='ListTestimonialsTop'>
+        <div className='ListTestimonialsTop flex justify-center gap-10 pt-30'>
 
             <div className='GoogleIncCard grid grid-flow-col grid-rows-3 rounded-[15px] w-88 h-104 shadow-lg shadow-blue-500/50'>
                 <div className=' flex justify-center'><img className=' ' src={Ronald} alt="" /></div>
@@ -36,7 +40,52 @@ const Testimonials = () => {
                     <div className=' flex justify-center h-10 pt-5'><img className=' h-5' src={fiveStars} alt="" /></div>
                 </div>            
             </div>
+
+            <div className='MicrosoftIncCard grid grid-flow-col grid-rows-3 rounded-[15px] w-88 h-104 shadow-lg shadow-blue-500/50'>
+                <div className=' flex justify-center'><img className=' h-30' src={Kristin} alt="" width={120}/></div>
+                <div className='MicrosoftIncCardText text-center '>
+                    <h1 className=' text-[#111029] font-bold text-[24px] tracking-[0px]'>Kristin Watson</h1>
+                    <h1 className=' text-[#ABAFC7] font-[400px] text-[16px] m-5 tracking-[0px]'>Microsoft inc.</h1>
+                    <h1 className=' text-[#70798B] font-[400px] text-[18px] tracking-[0px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</h1>
+                    <div className=' flex justify-center h-10 pt-5'><img className=' h-5' src={fiveStars} alt="" /></div>
+                </div>            
+            </div>
         </div>
+
+        <div className='ListTestimonialsBottom flex justify-center gap-10 p-30'>
+
+            <div className='FacebookIncCard grid grid-flow-col grid-rows-3 rounded-[15px] w-88 h-104 shadow-lg shadow-blue-500/50'>
+                <div className=' flex justify-center'><img className=' ' src={Robert} alt="" /></div>
+                <div className='IncCardText text-center '>
+                    <h1 className=' text-[#111029] font-bold text-[24px] tracking-[0px]'>Robert Fox</h1>
+                    <h1 className=' text-[#ABAFC7] font-[400px] text-[16px] m-5 tracking-[0px]'>Facebook inc.</h1>
+                    <h1 className=' text-[#70798B] font-[400px] text-[18px] tracking-[0px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</h1>
+                    <div className=' flex justify-center h-10 pt-5'><img className=' h-5' src={fiveStars} alt="" /></div>
+                </div>            
+            </div>
+
+            <div className='TwitterIncCard grid grid-flow-col grid-rows-3 rounded-[15px] w-88 h-104 shadow-lg shadow-blue-500/50'>
+                <div className=' flex justify-center'><img className=' ' src={savannah} alt="" /></div>
+                <div className='TwitterIncCardText text-center '>
+                    <h1 className=' text-[#111029] font-bold text-[24px] tracking-[0px]'>Savannah Nguyen</h1>
+                    <h1 className=' text-[#ABAFC7] font-[400px] text-[16px] m-5 tracking-[0px]'>Twitter inc.</h1>
+                    <h1 className=' text-[#70798B] font-[400px] text-[18px] tracking-[0px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</h1>
+                    <div className=' flex justify-center h-10 pt-5'><img className=' h-5' src={fiveStars} alt="" /></div>
+                </div>            
+            </div>
+
+            <div className='AppleIncCard grid grid-flow-col grid-rows-3 rounded-[15px] w-88 h-104 shadow-lg shadow-blue-500/50'>
+                <div className=' flex justify-center'><img className=' ' src={HenryNotStickman} alt="" /></div>
+                <div className='AppleIncCardText text-center '>
+                    <h1 className=' text-[#111029] font-bold text-[24px] tracking-[0px]'>Courtney Henry</h1>
+                    <h1 className=' text-[#ABAFC7] font-[400px] text-[16px] m-5 tracking-[0px]'>Apple inc.</h1>
+                    <h1 className=' text-[#70798B] font-[400px] text-[18px] tracking-[0px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</h1>
+                    <div className=' flex justify-center h-10 pt-5'><img className=' h-5' src={fiveStars} alt="" /></div>
+                </div>            
+            </div>
+
+        </div>
+
     </div>
   )
 }
